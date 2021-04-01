@@ -1,11 +1,20 @@
 package composision;
 
 public class Human {
-String name="Vinu";
-int age=19;
-String dob="20-06-2002";
+	Heart heart=new Heart();
+	
 
-Heart heart=new Heart();
+
+Boolean human=heart.pumpingBlood;
+String details=heart.bloodPressure;
+
+void getHumanDetails()
+{
+	System.out.println("heart funtionality");
+	
+}
+
+
 
 String retrieveHeartSettings()
 {

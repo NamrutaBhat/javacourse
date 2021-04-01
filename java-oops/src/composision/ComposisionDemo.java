@@ -3,10 +3,13 @@ package composision;
 public class ComposisionDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method s
 		Human h=new Human();
 		
-	System.out.println("age is"+h.age);
+h.getHumanDetails();
+	h.retrieveHeartSettings();
+	
+	
 	
 
 		
