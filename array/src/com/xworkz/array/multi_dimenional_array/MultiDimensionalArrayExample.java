@@ -7,9 +7,9 @@ public class MultiDimensionalArrayExample {
 		
 		char[][] name={ {'a','n'}, {'u','s'} ,{'h','a'},{'t','e'},{'j','a'},{'s','g'}};
 		
-		for(int i=0;i<6;i++)
+		for(int i=0;i<name.length;i++)
 		{
-			for(int j=0;j<6;j++)
+			for(int j=0;j<name[i].length;j++)
 			{
 				
 			
