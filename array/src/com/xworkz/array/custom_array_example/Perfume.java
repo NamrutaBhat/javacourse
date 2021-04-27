@@ -10,6 +10,12 @@ public class Perfume extends Object {
 		this.brand = brand;
 	}
 
+	
+
+	public Perfume() {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public String toString() {
 		return "Perfume [name=" + name + ", brand=" + brand + "]";

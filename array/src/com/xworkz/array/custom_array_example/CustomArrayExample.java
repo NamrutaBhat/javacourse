@@ -16,18 +16,23 @@ public class CustomArrayExample {
 		TV tv1=new TV("LED","LG");
 		
 		Object objects[]={helmet,perfume,shoes,tv};
+		Object object=new Perfume();
 		
 		System.out.println("displaying the things");
+		
 		for(int i=0;i<objects.length;i++)
 		{
+			if(perfume instanceof Object){
+		
+			Perfume perfume11=(Perfume)object;
 			System.out.println(objects[i]);
 		}
-		
+		}
 		System.out.println("printing the name of the perfume");
 		for(int i=0;i<objects.length;i++)
 		{
 			System.out.println(objects[i]);
 		}
 	}
-
+	
 }
